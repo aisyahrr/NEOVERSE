@@ -16,6 +16,9 @@
     --btn-hover: #0006AF;     
     --btn-alt: #2228E3;       
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     background:
@@ -189,6 +192,7 @@ main{
 }
 .hero-buttons .btn {
     padding: 0.75rem 1.5rem;
+    font-size: 1rem;
     margin: 0 0.10rem;
     border-radius: 6px;
     text-decoration: none;

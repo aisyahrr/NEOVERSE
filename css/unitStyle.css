@@ -3,15 +3,18 @@
 --ink: #F5F5FF;          
 --bg: #010325;            
 --bg-blue: #040631;     
---electric-blue: #0d0f5a; /* Aksen neon */
+--electric-blue: #0d0f5a; 
 --neon-purple: #797DEF;   
 --neon-blue: #2228E3;     
---neon-cyan: #0007CF;     /* Teks */
+--neon-cyan: #0007CF;   
 --text-light: #F5F5FF;    
---text-muted: #BCBEF7;    /* Button */
+--text-muted: #BCBEF7;    
 --btn-primary: #797DEF;   
 --btn-hover: #0006AF;     
 --btn-alt: #2228E3;     
+}
+html{
+    scroll-behavior: smooth;
 }
 #sideMenu{
     display: none;
