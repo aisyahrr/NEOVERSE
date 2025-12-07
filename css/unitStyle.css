@@ -566,6 +566,16 @@ h2 {
     .clear {
         clear: none;
     }
+    .timeline-item.left,
+    .timeline-item.right {
+        transform: translateY(40px); 
+        opacity: 0;
+    }
+
+    .timeline-item.show {
+        transform: translateY(0);
+        opacity: 1;
+    }
     .diskrografi-content {
         display: flex;
         overflow-x: auto;
