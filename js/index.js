@@ -133,5 +133,33 @@ function closePopup() {
   }, {
     threshold: 0.2 
   });
-
   elements.forEach((el) => observer.observe(el));
+
+  //Contact
+const scriptURL = "https://script.google.com/macros/s/AKfycbz-00Ue35h0jP8hi10VVZb1bXpf2qppaOyJhj_zX9Im1ZMJlrCxNHkGyGxPdrciryrh/exec";
+
+// === EVENT SUBMIT FORM ===
+document.getElementById("reservation-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const data = {
+        nama: document.getElementById("nama").value,
+        note: document.getElementById("note").value
+    };
+
+    fetch(scriptURL, {
+        method: "POST",
+        body: JSON.stringify(data),
+        headers: {
+            "Content-Type": "text/plain;charset=utf-8"
+        }
+    })
+    .then(res => {
+        alert("Reservasi berhasil disimpan ke Google Sheets!");
+        document.getElementById("reservation-form").reset();
+    })
+    .catch(err => {
+        alert("Gagal mengirim data!");
+        console.error(err);
+    });
+});
