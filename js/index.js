@@ -138,7 +138,6 @@ function closePopup() {
   //Contact
 const scriptURL = "https://script.google.com/macros/s/AKfycbz-00Ue35h0jP8hi10VVZb1bXpf2qppaOyJhj_zX9Im1ZMJlrCxNHkGyGxPdrciryrh/exec";
 
-// === EVENT SUBMIT FORM ===
 document.getElementById("reservation-form").addEventListener("submit", function(e) {
     e.preventDefault();
 

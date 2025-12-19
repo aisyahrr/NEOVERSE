@@ -13,16 +13,24 @@ if (window.location.pathname.includes("nctdream.html")) {
         {name: "Jisung",role: "Main Dancer,Maknae",birth: "5 Februari 2002",image: "../Asset/dream/jisung.jpeg"},
     ];
     mvs = [
-        {link: "https://youtu.be/PkKnp4SdE-w?si=D9siMlu4t-HflodN", video: "../Asset/dream/album/Mv/HotSauce.mp4", image : "../Asset/dream/album/cover/HotSauce.jpg", judul: "Hot Sauce", subjudul: "MV · 190M Views"},
-        {link: "https://youtu.be/X-iJZ0gfKPo?si=bAm38f5tr2aYmg7q", video: "../Asset/dream/album/Mv/Boom.mp4", image : "../Asset/dream/album/cover/Boom.jpg", judul: "Boom", subjudul: "MV · 174M Views"},
-        {link: "https://youtu.be/QPUjV7epJqE?si=s_TF3Up1huiJN0cv", video: "../Asset/dream/album/Mv/HelloFuture.mp4", image : "../Asset/dream/album/cover/HelloFuture.jpg", judul: "Hello Future", subjudul: "MV · 119M Views"},
+        {link: "https://youtu.be/PkKnp4SdE-w?si=D9siMlu4t-HflodN", video: "../Asset/dream/album/Mv/HotSauce.mp4", image : "../Asset/dream/album/cover/HotSauce.jpg", 
+            judul: "Hot Sauce", subjudul: "MV · 190M Views"},
+        {link: "https://youtu.be/X-iJZ0gfKPo?si=bAm38f5tr2aYmg7q", video: "../Asset/dream/album/Mv/Boom.mp4", image : "../Asset/dream/album/cover/Boom.jpg", 
+            judul: "Boom", subjudul: "MV · 174M Views"},
+        {link: "https://youtu.be/QPUjV7epJqE?si=s_TF3Up1huiJN0cv", video: "../Asset/dream/album/Mv/HelloFuture.mp4", image : "../Asset/dream/album/cover/HelloFuture.jpg", 
+            judul: "Hello Future", subjudul: "MV · 119M Views"},
     ];
     albums = [
-        {image : "../Asset/dream/album/cover/GBTF.jpg", link : "https://open.spotify.com/album/2sOb21DLBATC7czm21LQoM?si=4q-ddkooRwWGhi48AJCyhA", judul: "Go Back To The Future", subjudul: "Latest Release · Album"},
-        {image : "../Asset/dream/album/cover/ISTJ.jpg", link : "https://open.spotify.com/album/2uk29gcBkCLJZPTIQK9azh?si=CluQEwf4TuyMx9oUdsJYOA", judul: "ISTJ - The 3rd Album", subjudul: "2023 · Album"},
-        {image : "../Asset/dream/album/cover/HotSauce.jpg", link : "https://open.spotify.com/album/1miTgxRTUje9Jqml1aOSUi?si=tts2_IAuQQ68lauqE6wScg", judul: "Hot Souce - The 1rd Album ", subjudul: "2021 · Album"},
-        {image : "../Asset/dream/album/cover/HelloFuture.jpg", link : "https://open.spotify.com/album/1fRqXYwoLDxG3EwP70qnjM?si=4tlJbgzCSj-sFSeYwS7feg", judul: "Hello Future - The 1st Album Repackage ", subjudul: "2021 · Album"},
-        {image : "../Asset/dream/album/cover/Beatbox.jpg", link : "https://open.spotify.com/album/4sM1qNxjzxOvoH6jeFHx3W?si=14yfNGLaTMuvsKnlm33Pwg", judul: "Beatbox - The 2nd Album Repackage ", subjudul: "2022 · Album"},
+        {image : "../Asset/dream/album/cover/GBTF.jpg", link : "https://open.spotify.com/album/2sOb21DLBATC7czm21LQoM?si=4q-ddkooRwWGhi48AJCyhA", 
+            judul: "Go Back To The Future", subjudul: "Latest Release · Album"},
+        {image : "../Asset/dream/album/cover/ISTJ.jpg", link : "https://open.spotify.com/album/2uk29gcBkCLJZPTIQK9azh?si=CluQEwf4TuyMx9oUdsJYOA", 
+            judul: "ISTJ - The 3rd Album", subjudul: "2023 · Album"},
+        {image : "../Asset/dream/album/cover/HotSauce.jpg", link : "https://open.spotify.com/album/1miTgxRTUje9Jqml1aOSUi?si=tts2_IAuQQ68lauqE6wScg", 
+            judul: "Hot Souce - The 1rd Album ", subjudul: "2021 · Album"},
+        {image : "../Asset/dream/album/cover/HelloFuture.jpg", link : "https://open.spotify.com/album/1fRqXYwoLDxG3EwP70qnjM?si=4tlJbgzCSj-sFSeYwS7feg", 
+            judul: "Hello Future - The 1st Album Repackage ", subjudul: "2021 · Album"},
+        {image : "../Asset/dream/album/cover/Beatbox.jpg", link : "https://open.spotify.com/album/4sM1qNxjzxOvoH6jeFHx3W?si=14yfNGLaTMuvsKnlm33Pwg", 
+            judul: "Beatbox - The 2nd Album Repackage ", subjudul: "2022 · Album"},
     ];
 } else if (window.location.pathname.includes("nct127.html")) {
     members = [
